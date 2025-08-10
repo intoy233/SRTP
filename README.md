@@ -10,7 +10,7 @@ SRTP/
 ├── data/                    # 数据文件
 │   ├── raw/                # 原始数据
 │   │   ├── papers/        # PDF论文文件
-│   │   └── extracted/     # 提取的CSV数据
+│   │   └─ extracted/     # 提取的CSV数据
 │   ├── processed/          # 处理后的数据
 │   └── templates/          # 数据模板和指南
 ├── src/                    # 源代码
