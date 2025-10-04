@@ -1,0 +1,269 @@
+# Bridge VIV Risk Assessment Configuration
+
+# Data Configuration
+data:
+  # Path to the main dataset (UTF-8 with BOM recommended)
+  dataset_path: "../bridge_dataset_fixed.csv"
+  # Path to template dataset for testing
+  template_path: "../bridge_data_template_fixed.csv"
+  # Random seed for reproducibility
+  random_state: 42
+
+# Task Configuration
+tasks:
+  # Available tasks: amplitude, risk_class, viv_occurrence, all
+  target_tasks: ["amplitude", "risk_class", "viv_occurrence"]
+  # Primary task for hyperparameter optimization
+  primary_task: "amplitude"
+
+# Data Processing Configuration
+preprocessing:
+  # Test set proportion (0.2 = 20%)
+  test_size: 0.2
+  # Validation set proportion from remaining data
+  val_size: 0.2
+  # Scaler type: standard, minmax, robust
+  scaler_type: "standard"
+  # Apply SMOTE for imbalanced classification
+  apply_smote: true
+  # Outlier detection method: iqr, zscore, none
+  outlier_method: "iqr"
+  # Outlier threshold
+  outlier_threshold: 1.5
+
+# Feature Engineering Configuration
+feature_engineering:
+  # Include domain-specific features
+  include_domain_features: true
+  # Include polynomial features
+  include_polynomial: false
+  # Polynomial degree
+  polynomial_degree: 2
+  # Include interaction features
+  include_interactions: false
+  # Include ratio features
+  include_ratios: true
+  # Include dimensionless parameters
+  include_dimensionless: true
+  # Include statistical features
+  include_statistical: false
+  # Apply Box-Cox transformation
+  apply_boxcox: false
+  # Maximum number of features to keep (null for no limit)
+  max_features: null
+  # Apply PCA for dimensionality reduction
+  apply_pca: false
+  # PCA components (float for variance explained, int for n_components)
+  pca_components: 0.95
+
+# Cross-Validation Configuration
+cross_validation:
+  # Number of CV folds
+  n_splits: 5
+  # Shuffle data in CV
+  shuffle: true
+
+# Model Configuration
+models:
+  # Models to train (baseline mode)
+  baseline_models:
+    - "linear"
+    - "ridge"
+    - "random_forest"
+    - "xgboost"
+    - "lightgbm"
+    - "catboost"
+    - "svm"
+    - "mlp"
+
+  # Advanced models for full experiments
+  advanced_models:
+    - "ensemble"
+
+  # Model-specific parameters
+  model_params:
+    ridge:
+      alpha: 1.0
+
+    random_forest:
+      n_estimators: 100
+      max_depth: null
+
+    xgboost:
+      n_estimators: 100
+      max_depth: 6
+      learning_rate: 0.1
+      early_stopping_rounds: 10
+
+    lightgbm:
+      n_estimators: 100
+      max_depth: -1
+      learning_rate: 0.1
+      early_stopping_rounds: 10
+
+    catboost:
+      n_estimators: 100
+      max_depth: 6
+      learning_rate: 0.1
+      early_stopping_rounds: 10
+
+    svm:
+      kernel: "rbf"
+      C: 1.0
+      gamma: "scale"
+
+    mlp:
+      hidden_dims: [64, 32, 16]
+      dropout_rate: 0.3
+      learning_rate: 0.001
+      epochs: 100
+      batch_size: 32
+      early_stopping_patience: 10
+
+# Hyperparameter Optimization Configuration
+hyperopt:
+  # Enable hyperparameter optimization
+  enabled: false
+  # Optimization framework: optuna, hyperopt, grid_search
+  framework: "optuna"
+  # Number of trials
+  n_trials: 50
+  # Timeout in seconds (null for no timeout)
+  timeout: 3600
+  # Direction: minimize, maximize
+  direction: "minimize"
+  # Metric to optimize
+  metric: "rmse"  # For regression: rmse, mae, r2. For classification: accuracy, f1, roc_auc
+
+  # Search spaces for different models
+  search_spaces:
+    xgboost:
+      n_estimators: [50, 300]
+      max_depth: [3, 10]
+      learning_rate: [0.01, 0.3]
+      subsample: [0.6, 1.0]
+      colsample_bytree: [0.6, 1.0]
+
+    lightgbm:
+      n_estimators: [50, 300]
+      max_depth: [3, 15]
+      learning_rate: [0.01, 0.3]
+      num_leaves: [10, 100]
+      subsample: [0.6, 1.0]
+
+    random_forest:
+      n_estimators: [50, 200]
+      max_depth: [5, 20]
+      min_samples_split: [2, 10]
+      min_samples_leaf: [1, 5]
+
+# Experiment Tracking Configuration
+tracking:
+  # Enable experiment tracking
+  enabled: true
+  # Tracking backend: mlflow, wandb
+  backend: "mlflow"
+  # Experiment name
+  experiment_name: "bridge_viv_risk_assessment"
+  # MLflow tracking URI (file path or server)
+  mlflow_uri: "file:./experiments/mlflow"
+  # Weights & Biases configuration
+  wandb:
+    project: "bridge-viv-assessment"
+    entity: null  # Your W&B username/team
+
+# Evaluation Configuration
+evaluation:
+  # Metrics for regression tasks
+  regression_metrics:
+    - "mae"
+    - "rmse"
+    - "r2"
+    - "mape"
+
+  # Metrics for classification tasks
+  classification_metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+    - "roc_auc"
+    - "pr_auc"
+
+  # Generate confusion matrix for classification
+  plot_confusion_matrix: true
+  # Generate residual plots for regression
+  plot_residuals: true
+  # Generate feature importance plots
+  plot_feature_importance: true
+  # Generate SHAP analysis
+  plot_shap: true
+  # Number of samples for SHAP analysis
+  shap_samples: 100
+
+# Output Configuration
+output:
+  # Results directory
+  results_dir: "results"
+  # Experiments directory
+  experiments_dir: "experiments"
+  # Save trained models
+  save_models: true
+  # Save predictions
+  save_predictions: true
+  # Save evaluation metrics
+  save_metrics: true
+  # Save plots
+  save_plots: true
+  # Generate HTML report
+  generate_report: true
+
+# Logging Configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR
+  level: "INFO"
+  # Log file path
+  log_file: "logs/bridge_viv.log"
+  # Console output
+  console: true
+
+# Computational Configuration
+compute:
+  # Number of parallel jobs (-1 for all cores)
+  n_jobs: -1
+  # Use GPU if available (for PyTorch models)
+  use_gpu: true
+  # Memory limit for large datasets (in GB)
+  memory_limit: 8
+
+# Risk Assessment Configuration
+risk_assessment:
+  # Amplitude thresholds for risk classification
+  amplitude_thresholds:
+    low: 20      # mm
+    medium: 40   # mm
+    # high: > 40 mm
+
+  # Confidence thresholds for predictions
+  confidence_thresholds:
+    high_confidence: 0.8
+    medium_confidence: 0.6
+    # low_confidence: < 0.6
+
+  # Safety factors
+  safety_factors:
+    design: 1.5
+    assessment: 2.0
+
+# Development Configuration
+development:
+  # Enable debug mode
+  debug: false
+  # Use small dataset for testing
+  use_sample_data: false
+  # Sample size for testing
+  sample_size: 50
+  # Enable verbose output
+  verbose: false
+  # Enable dry run mode (validation only)
+  dry_run: false

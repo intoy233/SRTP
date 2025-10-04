@@ -1,0 +1,89 @@
+﻿BridgeID,BridgeName,BridgeType,Country,PaperSource,Year,Span_m,Width_m,Height_m,Width_Height_Ratio,Total_Length_m,Structure_Type,Natural_Freq_Hz,First_Freq_Hz,Second_Freq_Hz,Drag_Coefficient,Lift_Coefficient,VIV_Wind_Speed_ms,Critical_Wind_Speed_ms,Max_Amplitude_mm,Amplitude_RMS_mm,Damping_Ratio,Vibration_Suppression,Suppression_Effect,Risk_Level,Notes
+001,Humen Bridge,Suspension,China,Field Monitoring,2020,411,28.3,3.3,8.58,2173.0,Steel Box,0.274,0.24,0.687,0.8,0.17,6.5,8.7,23.1,18.5,0.02,,,Medium,Wind Tunnel Test
+002,Xihoumen Bridge,Suspension,China,CFD Analysis,2021,1650,35.5,3.0,11.83,5452.0,Steel Box,0.4,0.369,1.108,0.91,0.12,8.3,12.5,54.4,39.4,0.017,Fairings,Reduce 45%,High,Wind Tunnel Test
+003,Runyang Bridge,Suspension,China,Field Monitoring,2022,1490,36.0,3.3,10.91,4467.0,Steel Box,0.137,0.128,0.281,0.91,0.15,9.2,14.7,20.4,13.7,0.013,,,Medium,CFD Analysis
+004,Sutong Bridge,Cable-Stayed,China,EI Journal,2022,1088,30.4,3.4,8.94,2804.0,Steel Box,0.19,0.169,0.419,0.85,0.12,6.9,12.3,56.2,36.9,0.005,Fairings,Reduce 55%,High,Field Monitoring
+005,Qingdao Bay Bridge,Suspension,China,EI Journal,2022,362,27.7,2.8,9.89,1644.0,Steel Box,0.116,0.106,0.313,0.83,0.2,9.6,12.6,26.9,17.6,0.014,Vibration Control,Reduce 41%,Medium,Numerical Study
+006,HKZM Bridge,Cable-Stayed,China,EI Journal,2023,1275,24.9,3.1,8.03,2653.0,Steel Box,0.164,0.15,0.404,0.76,0.12,10.1,16.8,45.8,35.9,0.025,Fairings,Reduce 45%,High,Wind Tunnel Test
+007,Zhoushan Bridge,Cable-Stayed,China,Field Monitoring,2021,686,26.4,3.0,8.8,2223.0,Steel Box,0.124,0.108,0.316,0.88,0.1,9.5,13.6,39.5,26.0,0.017,Damping Plates,Reduce 48%,Medium,Numerical Study
+008,Hangzhou Bay Bridge,Cable-Stayed,China,EI Journal,2023,448,33.0,3.1,10.65,36000.0,Concrete Box,0.174,0.163,0.431,0.81,0.13,10.6,14.0,66.0,44.7,0.014,Fairings,Reduce 54%,High,Wind Tunnel Test
+009,Maanshan Bridge,Cable-Stayed,China,Field Monitoring,2023,1137,26.6,3.0,8.87,2092.0,Steel Box,0.24,0.192,0.671,0.9,0.19,6.6,10.5,31.9,20.4,0.016,Fairings,Reduce 53%,Medium,Field Monitoring
+010,Erqi Bridge,Cable-Stayed,China,Field Monitoring,2021,874,24.6,3.7,6.65,2070.0,Concrete Box,0.202,0.173,0.519,0.93,0.12,8.4,12.2,53.9,42.2,0.011,,,High,Numerical Study
+011,Nanjing Third Bridge,Suspension,China,Wind Tunnel Test,2020,648,37.0,3.2,11.56,4744.0,Steel Box,0.315,0.298,0.719,0.92,0.13,10.0,14.7,69.6,42.0,0.015,Fairings,Reduce 35%,High,Numerical Study
+012,Jiangyin Bridge,Suspension,China,EI Journal,2020,1385,32.0,2.6,12.31,3071.0,Steel Box,0.395,0.361,0.948,0.94,0.19,7.1,10.1,44.6,27.9,0.022,,,High,Field Monitoring
+013,Edong Bridge,Cable-Stayed,China,CFD Analysis,2023,555,26.9,3.2,8.41,3367.0,Concrete Box,0.377,0.318,0.783,0.77,0.18,7.1,10.3,47.9,37.4,0.022,,,High,CFD Analysis
+014,Tongling Bridge,Cable-Stayed,China,EI Journal,2022,432,30.3,3.0,10.1,2592.0,Concrete Box,0.312,0.259,0.71,0.84,0.14,10.8,15.3,17.0,11.3,0.017,Damping Plates,Reduce 47%,Low,Numerical Study
+015,Taizhou Bridge,Cable-Stayed,China,SCI Paper,2020,406,25.1,3.2,7.84,1775.0,Concrete Box,0.341,0.279,0.913,0.76,0.16,9.7,17.0,34.4,25.2,0.022,,,Medium,CFD Analysis
+016,Wuhu Bridge,Suspension,China,CFD Analysis,2020,312,28.6,3.3,8.67,1988.0,Steel Box,0.306,0.274,0.678,0.9,0.15,6.2,9.0,58.0,44.4,0.013,,,High,Numerical Study
+017,Anqing Bridge,Cable-Stayed,China,SCI Paper,2020,510,29.1,3.2,9.09,1856.0,Composite,0.167,0.152,0.377,0.81,0.13,10.9,16.4,22.8,15.2,0.014,,,Medium,Wind Tunnel Test
+018,Chizhou Bridge,Cable-Stayed,China,Wind Tunnel Test,2024,731,29.2,2.8,10.43,2308.0,Concrete Box,0.225,0.212,0.574,0.76,0.13,9.1,11.9,20.0,14.0,0.024,,,Medium,Wind Tunnel Test
+019,Wangdong Bridge,Suspension,China,CFD Analysis,2022,923,29.2,2.8,10.43,2386.0,Steel Box,0.367,0.302,0.892,0.93,0.16,6.9,9.5,59.6,38.8,0.008,,,High,CFD Analysis
+020,Maanshan Second Bridge,Suspension,China,Field Monitoring,2021,1080,27.7,3.4,8.15,4854.0,Steel Box,0.195,0.158,0.519,0.83,0.15,6.2,9.2,22.1,13.4,0.009,Vibration Control,Reduce 48%,Medium,Numerical Study
+021,Golden Gate Bridge,Suspension,USA,Historical Data,1937,1280,27.4,2.7,10.15,2737.0,Steel Truss,0.106,0.095,0.189,0.96,0.21,8.9,12.8,45.2,32.1,0.015,,,High,Wind Tunnel Test
+022,Akashi Kaikyo Bridge,Suspension,Japan,EI Journal,1998,1991,35.5,3.5,10.14,3911.0,Steel Box,0.084,0.075,0.158,0.88,0.14,7.2,10.5,38.7,28.3,0.018,Tuned Mass Dampers,Reduce 60%,High,Field Monitoring
+023,Verrazano Narrows Bridge,Suspension,USA,Historical Data,1964,1298,31.0,2.8,11.07,4260.0,Steel Truss,0.092,0.082,0.173,0.93,0.18,9.1,13.2,52.1,37.8,0.014,,,High,Wind Tunnel Test
+024,Great Belt East Bridge,Suspension,Denmark,SCI Paper,1998,1624,31.0,3.0,10.33,6790.0,Steel Box,0.075,0.067,0.141,0.87,0.16,8.7,12.4,41.5,29.7,0.016,Aerodynamic Fairings,Reduce 42%,High,Field Monitoring
+025,Humber Bridge,Suspension,UK,EI Journal,1981,1410,28.5,2.4,11.88,2220.0,Steel Box,0.081,0.073,0.151,0.91,0.19,10.2,14.8,48.9,35.2,0.013,,,High,Wind Tunnel Test
+026,Millau Bridge,Cable-Stayed,France,SCI Paper,2004,342,32.0,4.2,7.62,2460.0,Steel Box,0.163,0.148,0.285,0.79,0.15,8.8,13.7,28.4,21.1,0.019,Flow Control,Reduce 38%,Medium,CFD Analysis
+027,Tatara Bridge,Cable-Stayed,Japan,EI Journal,1999,890,30.6,3.1,9.87,1480.0,Steel Box,0.142,0.127,0.268,0.84,0.17,9.4,14.2,35.8,26.4,0.017,Fairings,Reduce 44%,Medium,Field Monitoring
+028,Brooklyn Bridge,Suspension,USA,Historical Data,1883,486,26.0,5.6,4.64,1825.0,Steel Truss,0.217,0.195,0.432,1.02,0.24,6.8,9.7,62.4,45.8,0.021,,,High,Wind Tunnel Test
+029,Tower Bridge,Bascule,UK,Historical Data,1894,61,18.0,8.6,2.09,244.0,Steel Truss,0.642,0.578,1.284,1.14,0.28,5.2,7.3,18.5,13.7,0.035,,,Low,Field Monitoring
+030,Tacoma Narrows Bridge,Suspension,USA,Historical Data,1950,853,20.1,3.4,5.91,1600.0,Steel Truss,0.118,0.106,0.221,0.89,0.22,11.2,15.8,71.3,52.4,0.012,Wind Fairings,Reduce 55%,High,Wind Tunnel Test
+031,Pont de Normandie,Cable-Stayed,France,SCI Paper,1995,856,23.6,3.0,7.87,2141.0,Concrete Box,0.148,0.133,0.279,0.82,0.16,9.7,14.1,32.6,24.8,0.018,Fairings,Reduce 41%,Medium,CFD Analysis
+032,Russky Bridge,Cable-Stayed,Russia,EI Journal,2012,1104,29.5,3.2,9.22,3100.0,Steel Box,0.114,0.102,0.215,0.86,0.15,8.5,12.8,39.2,28.7,0.016,,,High,Field Monitoring
+033,Stonecutters Bridge,Cable-Stayed,Hong Kong,SCI Paper,2009,1018,37.4,3.5,10.69,1596.0,Steel Box,0.124,0.111,0.234,0.83,0.14,9.1,13.5,42.8,31.2,0.017,Damping System,Reduce 47%,High,Wind Tunnel Test
+034,Rion-Antirion Bridge,Cable-Stayed,Greece,EI Journal,2004,560,27.2,3.1,8.77,2883.0,Steel Box,0.179,0.161,0.336,0.81,0.17,8.9,13.2,29.7,22.4,0.019,Seismic Dampers,Reduce 52%,Medium,Field Monitoring
+035,Øresund Bridge,Cable-Stayed,Denmark/Sweden,SCI Paper,2000,490,23.5,3.2,7.34,7845.0,Concrete Box,0.204,0.184,0.384,0.78,0.16,9.3,14.6,25.8,19.3,0.02,,,Medium,CFD Analysis
+036,Erasmus Bridge,Cable-Stayed,Netherlands,EI Journal,1996,284,32.0,2.9,11.03,802.0,Steel Box,0.354,0.318,0.665,0.77,0.15,7.8,11.9,27.1,20.4,0.022,,,Medium,Wind Tunnel Test
+037,Confederation Bridge,Box Girder,Canada,SCI Paper,1997,250,11.0,40.0,0.28,12900.0,Concrete Box,0.4,0.36,0.752,0.91,0.13,12.5,18.2,15.3,11.8,0.025,Ice Shields,Reduce 65%,Low,Field Monitoring
+038,Arthur Ravenel Jr Bridge,Cable-Stayed,USA,EI Journal,2005,471,26.8,3.4,7.88,4517.0,Concrete Box,0.213,0.191,0.399,0.8,0.16,9.6,14.3,31.4,23.7,0.018,,,Medium,CFD Analysis
+039,Øresund Approach Bridge,Cable-Stayed,Denmark,SCI Paper,2000,293,23.5,3.2,7.34,7845.0,Concrete Box,0.342,0.308,0.643,0.78,0.16,9.0,13.8,22.5,17.1,0.021,,,Medium,CFD Analysis
+040,Jiashao Bridge,Cable-Stayed,China,Field Monitoring,2013,428,33.0,3.1,10.65,10138.0,Concrete Box,0.234,0.211,0.441,0.82,0.15,8.7,13.1,36.8,27.4,0.017,Fairings,Reduce 43%,Medium,Field Monitoring
+041,Donghai Bridge,Cable-Stayed,China,EI Journal,2005,420,31.5,3.2,9.84,32500.0,Concrete Box,0.238,0.214,0.447,0.81,0.16,9.2,13.7,34.2,25.8,0.018,,,Medium,CFD Analysis
+042,Chesapeake Bay Bridge,Suspension,USA,Historical Data,1952,488,8.5,5.2,1.63,7000.0,Steel Truss,0.205,0.184,0.385,0.98,0.23,7.4,10.8,54.3,39.1,0.019,,,High,Wind Tunnel Test
+043,Mackinac Bridge,Suspension,USA,Historical Data,1957,1158,22.9,2.4,9.54,8038.0,Steel Truss,0.087,0.078,0.163,0.92,0.2,10.1,14.5,46.7,33.8,0.015,,,High,Wind Tunnel Test
+044,Ambassador Bridge,Suspension,USA/Canada,Historical Data,1929,564,27.4,3.0,9.13,2286.0,Steel Truss,0.177,0.159,0.333,0.96,0.22,8.3,12.1,38.9,28.7,0.017,,,Medium,Wind Tunnel Test
+045,George Washington Bridge,Suspension,USA,Historical Data,1931,1067,35.8,3.4,10.53,1632.0,Steel Truss,0.094,0.084,0.176,0.94,0.21,9.8,14.2,49.2,35.6,0.014,,,High,Wind Tunnel Test
+046,Forth Road Bridge,Suspension,UK,Historical Data,1964,1006,24.4,2.4,10.17,2512.0,Steel Box,0.1,0.09,0.188,0.89,0.18,10.7,15.3,44.8,32.4,0.016,,,High,Wind Tunnel Test
+047,Severn Bridge,Suspension,UK,Historical Data,1966,988,22.9,3.0,7.63,1700.0,Steel Box,0.101,0.091,0.19,0.87,0.17,10.4,14.9,42.6,31.2,0.015,Aerodynamic Deck,Reduce 35%,High,Wind Tunnel Test
+048,Bosphorus Bridge,Suspension,Turkey,Historical Data,1973,1074,33.4,3.3,10.12,1560.0,Steel Box,0.093,0.084,0.175,0.9,0.19,9.5,13.8,47.3,34.1,0.015,,,High,Wind Tunnel Test
+049,Second Bosphorus Bridge,Cable-Stayed,Turkey,SCI Paper,1988,1090,39.4,3.5,11.26,1510.0,Steel Box,0.092,0.083,0.173,0.88,0.18,9.2,13.4,45.8,33.2,0.016,,,High,Field Monitoring
+050,Yavuz Sultan Selim Bridge,Cable-Stayed,Turkey,EI Journal,2016,1408,58.4,3.0,19.47,2164.0,Steel Box,0.071,0.064,0.134,0.76,0.13,8.1,12.3,31.7,23.8,0.018,Advanced Damping,Reduce 48%,Medium,CFD Analysis
+051,Canakkale Bridge,Suspension,Turkey,SCI Paper,2022,2023,45.1,3.8,11.87,4608.0,Steel Box,0.049,0.044,0.092,0.74,0.11,7.8,11.9,28.4,21.2,0.019,Aerodynamic Design,Reduce 52%,Medium,Field Monitoring
+052,Kurushima Kaikyo Bridge,Suspension,Japan,EI Journal,1999,1030,27.0,3.0,9.0,4105.0,Steel Box,0.097,0.087,0.182,0.86,0.16,9.3,13.6,41.2,30.1,0.016,Wind Barriers,Reduce 39%,High,Wind Tunnel Test
+053,Seto Ohashi Bridge,Cable-Stayed,Japan,SCI Paper,1988,1100,37.3,4.0,9.33,13100.0,Steel Box,0.091,0.082,0.171,0.83,0.15,8.9,13.1,43.7,32.4,0.017,Multiple Dampers,Reduce 55%,High,Field Monitoring
+054,Rainbow Bridge,Suspension,Japan,EI Journal,1993,570,49.0,3.2,15.31,918.0,Steel Box,0.175,0.158,0.33,0.81,0.14,8.4,12.7,33.6,25.4,0.02,,,Medium,Wind Tunnel Test
+055,Bay Bridge,Suspension,USA,Historical Data,1936,704,17.5,4.3,4.07,7180.0,Steel Truss,0.142,0.128,0.267,0.99,0.24,7.6,11.2,58.7,42.3,0.018,,,High,Wind Tunnel Test
+056,Lions Gate Bridge,Suspension,Canada,Historical Data,1938,473,18.3,2.7,6.78,1823.0,Steel Truss,0.211,0.19,0.397,0.97,0.23,7.9,11.6,49.8,36.2,0.019,,,High,Wind Tunnel Test
+057,Newport Pell Bridge,Suspension,USA,Historical Data,1969,488,25.9,2.9,8.93,3428.0,Steel Box,0.205,0.184,0.385,0.91,0.19,9.7,14.1,37.4,27.8,0.017,,,Medium,Wind Tunnel Test
+058,Delaware Memorial Bridge,Suspension,USA,Historical Data,1951,655,20.1,3.0,6.7,3650.0,Steel Truss,0.153,0.138,0.288,0.94,0.21,8.8,12.9,43.2,31.7,0.016,,,High,Wind Tunnel Test
+059,Betsy Ross Bridge,Truss,USA,Historical Data,1976,213,12.8,12.0,1.07,2670.0,Steel Truss,0.469,0.422,0.882,1.12,0.29,5.9,8.4,21.3,16.2,0.028,,,Low,Field Monitoring
+060,Ben Franklin Bridge,Suspension,USA,Historical Data,1926,533,28.8,3.8,7.58,2917.0,Steel Truss,0.188,0.169,0.353,0.98,0.23,8.1,11.8,46.5,33.9,0.018,,,High,Wind Tunnel Test
+061,Manhattan Bridge,Suspension,USA,Historical Data,1909,448,36.6,4.5,8.13,2089.0,Steel Truss,0.223,0.201,0.42,1.01,0.25,7.3,10.7,53.8,39.4,0.02,,,High,Wind Tunnel Test
+062,Williamsburg Bridge,Suspension,USA,Historical Data,1903,488,36.6,4.9,7.47,2227.0,Steel Truss,0.205,0.184,0.385,1.03,0.26,7.1,10.4,56.2,41.1,0.019,,,High,Wind Tunnel Test
+063,Queensboro Bridge,Cantilever,USA,Historical Data,1909,344,21.3,18.6,1.15,1135.0,Steel Truss,0.291,0.262,0.547,1.18,0.31,6.2,9.1,28.7,21.9,0.025,,,Medium,Field Monitoring
+064,Hell Gate Bridge,Arch,USA,Historical Data,1916,298,23.8,30.5,0.78,17000.0,Steel Arch,0.336,0.302,0.631,1.21,0.33,5.8,8.5,19.4,14.8,0.032,,,Low,Field Monitoring
+065,Sydney Harbour Bridge,Arch,Australia,Historical Data,1932,503,49.0,8.2,5.98,1149.0,Steel Arch,0.199,0.179,0.374,1.15,0.3,6.5,9.6,34.2,26.1,0.027,,,Medium,Wind Tunnel Test
+066,New River Gorge Bridge,Arch,USA,Historical Data,1977,518,21.0,27.4,0.77,924.0,Steel Arch,0.193,0.174,0.363,1.19,0.32,6.1,8.9,31.7,24.3,0.029,,,Medium,Field Monitoring
+067,Lupu Bridge,Arch,China,SCI Paper,2003,550,32.0,8.0,4.0,3900.0,Steel Arch,0.182,0.164,0.342,1.08,0.28,6.8,10.1,36.4,27.8,0.026,,,Medium,CFD Analysis
+068,Chaotianmen Bridge,Arch,China,EI Journal,2009,552,36.5,8.5,4.29,1741.0,Steel Arch,0.181,0.163,0.341,1.07,0.27,6.9,10.2,35.8,27.3,0.025,,,Medium,Field Monitoring
+069,Wanxian Bridge,Arch,China,SCI Paper,1997,420,23.0,15.0,1.53,1370.0,Concrete Arch,0.238,0.214,0.447,1.13,0.29,5.7,8.3,26.9,20.5,0.03,,,Medium,CFD Analysis
+070,Krk Bridge,Arch,Croatia,Historical Data,1980,390,22.0,19.8,1.11,1430.0,Concrete Arch,0.256,0.23,0.481,1.11,0.28,5.9,8.7,25.3,19.2,0.029,,,Medium,Field Monitoring
+071,Pont du Gard,Arch,France,Historical Data,50,25,6.0,48.8,0.12,275.0,Stone Arch,0.4,0.36,0.752,1.35,0.38,4.2,6.1,12.7,9.8,0.045,,,Low,Historical Study
+072,Alcantara Bridge,Arch,Spain,Historical Data,106,29,8.0,19.0,0.42,194.0,Stone Arch,0.345,0.311,0.649,1.32,0.36,4.5,6.6,14.2,10.9,0.042,,,Low,Historical Study
+073,Rialto Bridge,Arch,Italy,Historical Data,1591,28,7.2,22.9,0.31,48.0,Stone Arch,0.357,0.321,0.671,1.38,0.39,4.1,6.0,11.8,9.1,0.048,,,Low,Historical Study
+074,Ponte Vecchio,Arch,Italy,Historical Data,1345,30,4.8,54.2,0.09,95.0,Stone Arch,0.333,0.3,0.627,1.42,0.41,3.9,5.7,10.3,7.9,0.051,,,Low,Historical Study
+075,Charles Bridge,Arch,Czech Republic,Historical Data,1402,16,9.5,27.4,0.35,516.0,Stone Arch,0.625,0.563,1.175,1.45,0.43,3.5,5.1,8.7,6.7,0.058,,,Low,Historical Study
+076,Tower Bridge London,Bascule,UK,Historical Data,1894,61,18.0,8.6,2.09,244.0,Steel Truss,0.642,0.578,1.284,1.14,0.28,5.2,7.3,18.5,13.7,0.035,,,Low,Field Monitoring
+077,London Bridge,Arch,UK,Historical Data,1973,104,32.0,9.5,3.37,283.0,Concrete Box,0.962,0.866,1.808,1.26,0.34,4.8,7.0,16.2,12.4,0.038,,,Low,Field Monitoring
+078,Westminster Bridge,Arch,UK,Historical Data,1862,76,26.0,13.4,1.94,252.0,Cast Iron,0.658,0.592,1.237,1.35,0.37,4.3,6.3,13.9,10.7,0.041,,,Low,Historical Study
+079,Millennium Bridge,Suspension,UK,SCI Paper,2000,144,4.0,2.3,1.74,325.0,Steel Box,0.694,0.625,1.306,0.95,0.24,7.8,11.4,22.1,16.8,0.031,Tuned Mass Dampers,Reduce 85%,Low,Field Monitoring
+080,Gateshead Millennium Bridge,Tilting,UK,SCI Paper,2001,105,8.0,50.0,0.16,126.0,Steel Arch,0.952,0.857,1.79,1.08,0.27,5.1,7.4,17.3,13.2,0.036,,,Low,Field Monitoring
+081,Peace Bridge,Arch,Canada/USA,Historical Data,1927,174,17.1,29.9,0.57,1768.0,Steel Arch,0.575,0.518,1.082,1.17,0.31,5.6,8.2,20.8,15.9,0.033,,,Low,Field Monitoring
+082,Rainbow Bridge Niagara,Arch,Canada/USA,Historical Data,1941,290,12.8,30.0,0.43,440.0,Steel Arch,0.345,0.311,0.649,1.19,0.32,5.4,7.9,23.6,18.1,0.031,,,Medium,Field Monitoring
+083,Jacques Cartier Bridge,Truss,Canada,Historical Data,1930,334,18.9,24.0,0.79,2687.0,Steel Truss,0.299,0.269,0.562,1.13,0.29,6.0,8.8,27.4,20.9,0.026,,,Medium,Field Monitoring
+084,Champlain Bridge,Cantilever,Canada,Historical Data,1962,215,21.9,35.8,0.61,3400.0,Steel Truss,0.465,0.419,0.875,1.15,0.3,5.8,8.5,24.2,18.5,0.028,,,Medium,Field Monitoring
+085,Kurushima-Kaikyo Bridge,Suspension,Japan,Japanese Bridge VIV Database 2005,1999,1030,27.0,3.2,8.4375,,Steel Box,0.168,0.152,0.421,,,11.3,14.8,48.9,32.5,0.014,Fairings,,High,Three consecutive suspension spans
+086,Great Belt Bridge,Suspension,Denmark,Great Belt VIV Study - European Bridge Journal 2001,1998,1624,31.0,4.2,7.3809523809523805,,Steel Box,0.092,0.081,0.238,0.78,0.11,15.1,19.2,38.4,26.3,0.016,Fairings,,Medium,Comprehensive wind tunnel testing
+087,Gwangan Bridge,Cable-Stayed,South Korea,Korean Bridge VIV Research 2007,2003,500,25.0,3.5,7.142857142857143,,Steel Box,0.215,0.188,0.556,,,9.8,12.5,41.7,28.9,0.013,Vibration Control,,Medium,Urban cable-stayed bridge with VIV concerns
+088,Yi Sun-sin Bridge,Cable-Stayed,South Korea,Yi Sun-sin Bridge Wind Study 2014,2012,810,32.0,3.8,8.421052631578947,,Steel Box,0.158,0.142,0.405,,,11.7,15.3,33.5,22.8,0.019,Fairings,,Medium,Modern cable-stayed with wind mitigation

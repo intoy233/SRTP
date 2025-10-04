@@ -1,0 +1,131 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# 项目特定
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 大文件 (超过100MB的文件建议使用Git LFS)
+*.zip
+*.rar
+*.7z
+
+# 个人笔记和草稿
+drafts/
+notes/
+personal/
+
+# 敏感信息
+config/secrets.py
+*.key
+*.pem
+credentials.json
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志文件
+*.log
+logs/
+
+# 缓存文件
+cache/
+.cache/
+
+# 备份文件
+*.bak
+*.backup
+backup/
+
+# 编译文件
+*.o
+*.obj
+*.exe
+
+# 文档生成
+docs/_build/
+site/
+
+# 测试覆盖率
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 数据文件 (可选，根据需要调整)
+# 如果PDF文件很大，可以取消注释下面这行
+# *.pdf
+
+# 如果有大型数据集，可以取消注释
+# data/raw/large_datasets/
+# data/processed/large_files/

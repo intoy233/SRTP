@@ -1,0 +1,55 @@
+
+Final Bridge Dataset Report
+============================================================
+Generated: 2025-10-04 11:50:33
+
+Dataset Evolution:
+- Original dataset: 85 bridges
+- After manual international bridges: 88 bridges (去重后)
+- After PDF extraction: 97 bridges
+- Total growth: +12 bridges
+
+Final Dataset Statistics:
+- Total bridges: 97
+- Countries: 22
+- Bridge types: 9
+
+Bridge Type Distribution:
+BridgeType
+Suspension      38
+Cable-Stayed    34
+Arch            16
+Bascule          2
+Truss            2
+Cantilever       2
+Box Girder       1
+Tilting          1
+Floating         1
+
+Country Distribution (Top 10):
+Country
+China         33
+USA           18
+UK             9
+Japan          6
+Turkey         4
+Canada         4
+France         3
+Denmark        3
+Italy          2
+Canada/USA     2
+
+Core Field Completeness:
+  BridgeName: 100.0%
+  Span_m: 100.0%
+  Width_m: 100.0%
+  Height_m: 100.0%
+  Max_Amplitude_mm: 100.0%
+  Natural_Freq_Hz: 100.0%
+
+Data Quality:
+- Amplitude range: 8.7mm - 95.3mm
+- Span range: 16.0m - 2023.0m
+
+Ready for Deep Learning: Not yet - need more data
+============================================================

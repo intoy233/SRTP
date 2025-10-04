@@ -1,0 +1,4 @@
+﻿BridgeID,BridgeName,BridgeType,PaperSource,Year,Span_m,Width_m,Height_m,Width_Height_Ratio,Total_Length_m,Structure_Type,Natural_Freq_Hz,First_Freq_Hz,Second_Freq_Hz,Drag_Coefficient,Lift_Coefficient,VIV_Wind_Speed_ms,Critical_Wind_Speed_ms,Max_Amplitude_mm,Amplitude_RMS_mm,Damping_Ratio,Vibration_Suppression,Suppression_Effect,Risk_Level,Notes
+001,Example Bridge 1,Suspension,Paper A,2023,1200,36.0,3.0,12.0,2000,Steel Box,0.18,0.15,0.35,0.85,0.12,8.5,12.3,25.6,18.2,0.008,None,None,Medium,Wind Tunnel Test
+002,Example Bridge 2,Cable-Stayed,Paper B,2022,800,28.0,2.8,10.0,1600,Concrete Box,0.22,0.2,0.42,0.78,0.15,7.2,10.8,42.3,31.5,0.006,Fairings,Reduce 60%,Low,Field Monitoring
+003,Example Bridge 3,Girder,Paper C,2024,600,25.0,2.5,10.0,1200,Composite,0.25,0.23,0.48,0.92,0.18,9.1,13.5,18.7,12.4,0.012,None,None,Low,Sectional Model Test
