@@ -1,0 +1,27 @@
+
+Batch PDF Parsing Report
+============================================================
+Parsing Time: 2025-10-04 12:03:11
+
+Files Processed:
+- Total PDF files: 23
+- Successfully parsed: 0
+- Failed: 0
+- Manually extracted: 9
+
+Data Extracted:
+- Total bridges: 9
+- Countries: 2
+- Bridge types: 3
+
+Field Completeness:
+- BridgeName: 100.0%
+- Max_Amplitude_mm: 100.0%
+- Span_m: 100.0%
+- Natural_Freq_Hz: 100.0%
+
+Data Statistics:
+- Amplitude range: 28.4mm - 95.3mm
+- Mean amplitude: 54.9mm
+
+============================================================

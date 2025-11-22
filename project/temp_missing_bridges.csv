@@ -1,0 +1,51 @@
+BridgeID,BridgeName,Country,BridgeType,Span_m,Critical_Wind_Speed_ms
+75,Charles Bridge,Czech Republic,Arch,16,5.1
+102,Ultra Long-Span 5000m Suspension Bridge Concept,China,Suspension,5000,22.0
+200,Sidu River Bridge,China,Suspension,900,22.0
+201,Tsing Ma Bridge,Hong Kong,Suspension,1377,22.0
+202,E-San-Se Bridge,South Korea,Extradosed,300,22.0
+203,Great Belt Bridge (East),Denmark,Suspension,1624,22.0
+204,Second Severn Crossing,UK,Cable-Stayed,456,22.0
+205,Qingzhou Channel Bridge,China,Cable-Stayed,580,22.0
+206,Runyang South Bridge,China,Suspension,1490,22.0
+207,Baluarte Bridge,Mexico,Cable-Stayed,520,22.0
+208,Dongting Lake Bridge,China,Suspension,1480,22.0
+209,Tsurumi Tsubasa Bridge,Japan,Cable-Stayed,510,22.0
+210,New Tacoma Narrows Bridge,USA,Suspension,853,22.0
+211,Izmit Bay Bridge,Turkey,Suspension,1550,22.0
+212,Zhongxian Yangtze River Bridge,China,Cable-Stayed,560,22.0
+213,Minpu Bridge,China,Cable-Stayed,700,22.0
+214,Kap Shui Mun Bridge,Hong Kong,Cable-Stayed,430,22.0
+215,Sartell Bridge,USA,Extradosed,150,22.0
+216,E-ling Bridge,China,Suspension,1100,22.0
+217,Yangtze River Bridge (Wuhan),China,Truss,128,22.0
+218,Qingdao Haiwan Bridge,China,Beam,100,22.0
+219,Oresund Bridge,Denmark/Sweden,Cable-Stayed,490,22.0
+220,Millau Viaduct,France,Cable-Stayed,342,22.0
+221,Hong Kong-Zhuhai-Macao Bridge (HZMB),China,Cable-Stayed,460,22.0
+223,Nanjing Yangtze River Bridge,China,Truss,160,22.0
+224,Jinshajiang Bridge,China,Suspension,1386,22.0
+225,Wufengshan Bridge,China,Suspension,1092,22.0
+226,Runyang North Bridge,China,Suspension,1490,22.0
+227,Xiamen Zhangzhou Bridge,China,Extradosed,250,22.0
+228,Storebælt West Bridge,Denmark,Box Girder,1092,22.0
+229,Second Nanjing Yangtze Bridge,China,Cable-Stayed,628,22.0
+230,Sutong Bridge (Revisit),China,Cable-Stayed,1088,22.0
+231,Jiaozhou Bay Bridge,China,Beam,60,22.0
+232,Stonecutters Bridge (Revisit),Hong Kong,Cable-Stayed,1018,22.0
+233,Balinghe Bridge,China,Suspension,1088,22.0
+234,Shenzhen Bay Bridge,China,Cable-Stayed,500,22.0
+235,Osman Gazi Bridge,Turkey,Suspension,1550,22.0
+236,Stonecutters Bridge (VIV Test 3),Hong Kong,Cable-Stayed,1018,22.0
+237,Bayonne Bridge,USA,Arch,510,22.0
+238,Xiamen Sea-Crossing Bridge,China,Cable-Stayed,400,22.0
+240,Third Nanjing Yangtze Bridge,China,Cable-Stayed,648,22.0
+241,Yamuna Bridge,India,Cable-Stayed,250,22.0
+242,New York Bridge (Concept),USA,Suspension,2000,22.0
+243,E-470 Cable-Stayed Bridge,USA,Cable-Stayed,150,22.0
+244,Qingdao Haiwan Bridge (VIV Test 2),China,Beam,100,22.0
+245,Qingzhou Bridge (VIV Test 2),China,Cable-Stayed,580,22.0
+246,Puente de la Constitución de 1812,Spain,Cable-Stayed,540,22.0
+247,Gulang Bridge,China,Suspension,1200,22.0
+248,Forth Road Bridge (Revisit),UK,Suspension,1006,22.0
+249,Third Mainland Bridge,Nigeria,Beam,110,22.0

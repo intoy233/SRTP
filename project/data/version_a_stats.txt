@@ -1,0 +1,9 @@
+Version A (Real Data Baseline) Statistics
+============================================================
+
+total_samples: 216
+original_samples: 193
+new_real_samples: 23
+high_risk_samples: 64
+sample_feature_ratio: 2.769230769230769
+amplitude_distribution: {'low': 43, 'medium': 109, 'high': 53, 'critical': 11}

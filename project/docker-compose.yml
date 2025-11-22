@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  # Main Bridge VIV Assessment Service
+  bridge-viv:
+    build: .
+    container_name: bridge-viv-main
+    volumes:
+      - ./data:/app/data
+      - ./experiments:/app/experiments
+      - ./results:/app/results
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app/src
+      - CUDA_VISIBLE_DEVICES=""  # CPU only by default
+    command: >
+      bash -c "
+        echo 'Bridge VIV Risk Assessment System Ready';
+        echo 'Available commands:';
+        echo '  Training: python src/train.py --config config/config.yaml';
+        echo '  Prediction: python src/predict.py --model experiments/best_model.pkl --input data/input.csv --output data/predictions.csv';
+        echo '  Experiments: python src/experiments.py --config config/config.yaml';
+        echo '  Tests: pytest tests/';
+        tail -f /dev/null
+      "
+    networks:
+      - bridge-viv-network
+
+  # Development Environment with Jupyter
+  bridge-viv-dev:
+    build: .
+    container_name: bridge-viv-dev
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/app
+      - ./data:/app/data
+      - ./experiments:/app/experiments
+      - ./results:/app/results
+    environment:
+      - PYTHONPATH=/app/src
+      - JUPYTER_ENABLE_LAB=yes
+    command: >
+      bash -c "
+        pip install jupyter jupyterlab &&
+        jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+      "
+    networks:
+      - bridge-viv-network
+
+  # MLflow Tracking Server (Optional)
+  mlflow:
+    build: .
+    container_name: bridge-viv-mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./experiments:/app/experiments
+      - ./mlflow_artifacts:/app/mlflow_artifacts
+    environment:
+      - MLFLOW_BACKEND_STORE_URI=sqlite:///app/experiments/mlflow.db
+      - MLFLOW_DEFAULT_ARTIFACT_ROOT=/app/mlflow_artifacts
+    command: >
+      bash -c "
+        pip install mlflow &&
+        mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///app/experiments/mlflow.db --default-artifact-root /app/mlflow_artifacts
+      "
+    networks:
+      - bridge-viv-network
+    profiles:
+      - mlflow
+
+  # Testing Service
+  bridge-viv-test:
+    build: .
+    container_name: bridge-viv-test
+    volumes:
+      - ./:/app
+    environment:
+      - PYTHONPATH=/app/src
+    command: >
+      bash -c "
+        echo 'Running Bridge VIV Test Suite';
+        pytest tests/ -v --tb=short --cov=src --cov-report=html --cov-report=term;
+        echo 'Tests completed. Coverage report available in htmlcov/';
+      "
+    networks:
+      - bridge-viv-network
+    profiles:
+      - test
+
+networks:
+  bridge-viv-network:
+    driver: bridge
+
+volumes:
+  mlflow_artifacts:

@@ -1,0 +1,23 @@
+Physics-Based VIV Model Report
+============================================================
+Experiment Time: 2025-10-04 09:00:29.280237
+
+Performance:
+Training - RMSE: 1.408305, R2: 0.990588
+Testing  - RMSE: 3.185890, R2: 0.961998
+
+Model Comparison:
+- Original Ridge (80 samples): R2 = 0.938
+- SOTA Deep Learning: R2 = -0.348
+- Hybrid SOTA: R2 = -1.443
+- Physics Model: R2 = 0.9620
+
+Selected Features (8):
+Amplitude_RMS_mm: 13.9217
+Damping_Ratio: 0.1962
+Height_m: -0.0282
+Natural_Freq_Hz: -2.5713
+VIV_Susceptibility: 1.0041
+First_Freq_Hz: 0.2442
+Second_Freq_Hz: 2.4298
+Aspect_Ratio: 0.3318

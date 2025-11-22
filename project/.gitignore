@@ -1,0 +1,163 @@
+# 桥梁VIV预测系统 - Git忽略文件
+# Bridge VIV Prediction System - Gitignore
+
+# ==================== Python ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==================== Jupyter Notebook ====================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==================== 环境 ====================
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================== IDE ====================
+# PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# ==================== 系统文件 ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ==================== 项目特定 ====================
+# 训练好的模型文件 (太大,不上传)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# 数据文件 (可能包含敏感信息,选择性上传)
+# data/*.csv  # 如果数据可公开,注释掉这行
+data/raw/
+data/processed/
+data/external/
+data/temp/
+
+# 实验结果文件
+results/experiments/
+results/figures/*.png
+results/figures/*.jpg
+results/figures/*.pdf
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# 配置文件 (可能包含密钥)
+config/local.yaml
+config/secrets.yaml
+.env
+.env.local
+
+# ==================== 机器学习特定 ====================
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+runs/
+
+# Checkpoints
+checkpoints/
+*.ckpt
+
+# ==================== 文档 ====================
+# Sphinx documentation
+docs/_build/
+
+# ==================== 其他 ====================
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 备份文件
+*.backup
+*_backup.*

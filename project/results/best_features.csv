@@ -1,0 +1,17 @@
+Feature,Rank
+BridgeID,1
+Year,2
+Span_m,3
+Width_m,4
+Height_m,5
+Width_Height_Ratio,6
+Total_Length_m,7
+Natural_Freq_Hz,8
+First_Freq_Hz,9
+Second_Freq_Hz,10
+Drag_Coefficient,11
+Lift_Coefficient,12
+VIV_Wind_Speed_ms,13
+Critical_Wind_Speed_ms,14
+Amplitude_RMS_mm,15
+Damping_Ratio,16

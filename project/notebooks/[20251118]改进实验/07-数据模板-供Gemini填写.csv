@@ -1,0 +1,4 @@
+BridgeID,BridgeName,BridgeType,Country,PaperSource,Year,Span_m,Width_m,Height_m,Width_Height_Ratio,Total_Length_m,Structure_Type,Natural_Freq_Hz,First_Freq_Hz,Second_Freq_Hz,Drag_Coefficient,Lift_Coefficient,VIV_Wind_Speed_ms,Critical_Wind_Speed_ms,Max_Amplitude_mm,Amplitude_RMS_mm,Damping_Ratio,Vibration_Suppression,Suppression_Effect,Risk_Level,Notes
+197,Example Bridge 1,Suspension,China,Journal of Bridge Engineering 2023,2023,1650,36.0,3.5,10.29,2589,Steel Box,0.156,0.156,0.468,0.85,0.19,7.2,9.8,68.5,54.2,0.018,Yes,Guide Vanes,High,Wind Tunnel Test
+198,Example Bridge 2,Cable-Stayed,Japan,Wind Engineering 2022,2022,800,35.5,4.2,8.45,1845,Steel Box,0.195,0.195,0.586,0.92,0.21,6.8,8.9,45.3,36.1,0.022,No,,Medium,Field Monitoring
+199,Example Bridge 3,Suspension,USA,ASCE Journal 2021,2021,1991,42.0,14.0,3.0,3911,Truss,0.082,0.082,0.287,1.20,0.35,8.5,11.2,78.2,62.5,0.012,Yes,TMD,High,Wind Tunnel Test

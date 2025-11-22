@@ -1,0 +1,19 @@
+﻿No.,Priority,Title,Authors,Year,Journal,Estimated_Bridges,Search_Keywords,Status,Notes
+1,CRITICAL,Database of Wind-Induced Vibrations for Cable-Stayed Bridges in China,"Li, M.S., Yang, Y., Zhang, W.",2023,Journal of Bridge Engineering (ASCE),50-80,Cable-Stayed Bridges China VIV database Li Mingshui,Downloaded,
+2,CRITICAL,Wind Tunnel Tests of Suspension Bridges in China: A Comprehensive Database,"Chen, Z.Q., Yu, X.D., Wang, X.J.",2021,Engineering Mechanics (China),40-60,suspension bridge China wind tunnel Chen database,Downloaded,CNKI - Chinese database
+3,CRITICAL,Wind-Induced Vibration Database of Japanese Long-Span Bridges,"Matsumoto, M., Yagi, T., Shirato, H.",2020,Journal of Wind Engineering (Japan),60+,Japanese bridges wind vibration Matsumoto database,Pending,J-STAGE database
+4,CRITICAL,FHWA Wind Engineering for Bridges Manual,Federal Highway Administration,2020,Technical Report,50+,FHWA wind engineering bridges manual,Pending,Free download from FHWA website
+5,CRITICAL,European Bridge VIV Database: Analysis of 100+ Bridges,"Larsen, A., Flamand, O.",2019,Wind and Structures,100+,European Bridge VIV Database Larsen Flamand,Downloaded,
+6,CRITICAL,Vortex-Induced Vibrations of Long-Span Bridges: A Global Survey,"Simiu, E., Scanlan, R.H.",2018,Book Chapter,80+,Wind Effects on Structures Simiu Scanlan,Downloaded,Book - try Google Books or Library Genesis
+7,HIGH,Wind-Induced Vibrations of Yangtze River Bridges: A Review,"Zhou, Q., Li, Q.S.",2022,Journal of Bridge Engineering,20-30,Yangtze River bridges wind vibration Zhou,Downloaded,
+8,HIGH,Wind-Resistant Design of Super Long-Span Bridges: A Review,"Chen, X., Kareem, A.",2022,J. Wind Eng. Industrial Aerodynamics,25+,super long span bridges wind resistant Chen Kareem,Downloaded,Recent review
+9,HIGH,Field Monitoring Data Analysis of VIV in Cable-Stayed Bridges,"Kim, H.K., Lee, M.J.",2021,Engineering Structures,15-25,cable-stayed bridges field monitoring Korea VIV,Downloaded,Korean bridges
+10,HIGH,Wind Tunnel Investigation of VIV for Box Girder Sections,"Larsen, A., Walther, J.H.",2020,Journal of Fluids and Structures,12月18日,box girder VIV wind tunnel Larsen,Downloaded,
+11,HIGH,Wind-Induced Vibrations of Norwegian Fjord Bridges,"Strømmen, E., Hjorth-Hansen, E.",2020,Journal of Wind Engineering,10月15日,Norwegian bridges fjord wind vibration,Downloaded,
+12,HIGH,Wind Tunnel Tests for Hong Kong-Zhuhai-Macao Bridge,"Su, Y., Tang, Y.",2019,Bridge Construction (China),10+,Hong Kong Zhuhai Macao Bridge wind tunnel,Downloaded,
+13,HIGH,VIV Case Studies of US Suspension Bridges,"Boonyapinyo, V., Yamada, H.",2019,Journal of Structural Engineering,15-20,US suspension bridges VIV case studies,Downloaded,
+14,HIGH,Vortex Shedding Characteristics of Steel Truss Bridges,"Ge, Y.J., Xiang, H.F.",2018,China Journal of Highway,12月18日,steel truss bridge vortex shedding China Ge,Downloaded,
+15,HIGH,Fifty Years of Bridge Vortex-Induced Vibration Research,"Larsen, A.",2018,Journal of Wind Engineering,30+,Larsen fifty years bridge vortex vibration,Downloaded,Review paper with case summary table
+16,MEDIUM,Wind-Induced Vibration Study of Hangzhou Bay Bridge,"Zhang, W., Ge, Y.J.",2020,Engineering Mechanics (China),5月8日,Hangzhou Bay Bridge wind vibration,Downloaded,
+17,MEDIUM,VIV Suppression Measures for Sutong Bridge,"Li, M.S., Li, S.Y.",2019,Bridge Construction (China),5月8日,Sutong Bridge VIV suppression,Downloaded,
+18,MEDIUM,Wind Tunnel Tests of Runyang Bridge,"Zhu, L.D., Xu, Y.L.",2018,Engineering Structures,4月6日,Runyang Bridge wind tunnel,Downloaded,

@@ -1,0 +1,117 @@
+{
+  "experiment": "step3_feature_engineering",
+  "feature_count": 22,
+  "feature_names": [
+    "Span_m",
+    "Width_m",
+    "Height_m",
+    "Width_Height_Ratio",
+    "Natural_Freq_Hz",
+    "First_Freq_Hz",
+    "VIV_Wind_Speed_ms",
+    "Critical_Wind_Speed_ms",
+    "Damping_Ratio",
+    "Slenderness_Ratio",
+    "Aspect_Ratio",
+    "Log_Damping",
+    "Freq_Ratio",
+    "Reduced_Wind_Speed",
+    "Critical_Reduced_Wind_Speed",
+    "Wind_Speed_Ratio",
+    "Reynolds_Number",
+    "Strouhal_Number",
+    "Mass_Damping",
+    "Stability_Param",
+    "Geo_Dynamic",
+    "Wind_Damping"
+  ],
+  "models": {
+    "ridge_regression": {
+      "train_metrics": {
+        "mse": 246.25421532067742,
+        "rmse": 15.69248913718526,
+        "mae": 13.432517634041572,
+        "r2": 0.17719155833739253
+      },
+      "test_metrics": {
+        "mse": 334.80075379260165,
+        "rmse": 18.297561416554984,
+        "mae": 17.067949668763507,
+        "r2": -0.20924584762453646
+      },
+      "risk_accuracy": 0.25,
+      "feature_weights": [
+        [
+          "Width_Height_Ratio",
+          10.026072516047009
+        ],
+        [
+          "Slenderness_Ratio",
+          9.906890288613164
+        ],
+        [
+          "Stability_Param",
+          9.380622949842227
+        ],
+        [
+          "Reynolds_Number",
+          8.682603935718609
+        ],
+        [
+          "VIV_Wind_Speed_ms",
+          6.980800898557025
+        ],
+        [
+          "Aspect_Ratio",
+          6.743823005566882
+        ],
+        [
+          "Width_m",
+          5.793646963400488
+        ],
+        [
+          "Critical_Reduced_Wind_Speed",
+          4.591373814662938
+        ],
+        [
+          "Span_m",
+          4.057820680335568
+        ],
+        [
+          "Wind_Speed_Ratio",
+          3.8434429619646284
+        ]
+      ],
+      "hyperparameters": {
+        "alpha": 1.0
+      }
+    },
+    "improved_random_forest": {
+      "train_metrics": {
+        "mse": 179.88321367314308,
+        "rmse": 13.412054789372995,
+        "mae": 11.314509662794904,
+        "r2": 0.3989567791523093
+      },
+      "test_metrics": {
+        "mse": 300.3658448158062,
+        "rmse": 17.331065888046417,
+        "mae": 15.174513210119636,
+        "r2": -0.08487255926774395
+      },
+      "risk_accuracy": 0.25,
+      "hyperparameters": {
+        "n_estimators": 15,
+        "max_depth": 3,
+        "min_samples_split": 6,
+        "feature_subsample_ratio": 0.6
+      }
+    }
+  },
+  "data_info": {
+    "total_samples": 80,
+    "train_samples": 60,
+    "test_samples": 20,
+    "total_features": 22
+  }
+}

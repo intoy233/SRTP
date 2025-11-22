@@ -1,0 +1,27 @@
+
+Data Collection Statistics Report
+============================================================
+Collection Time: 2025-10-04 09:25:53
+
+Data Summary:
+- Total bridges collected: 10
+- Countries: 5
+- Bridge types: 2
+
+Field Completeness:
+- BridgeName: 100.0%
+- Max_Amplitude_mm: 100.0%
+- Span_m: 100.0%
+- Width_m: 100.0%
+- Height_m: 100.0%
+- Natural_Freq_Hz: 100.0%
+
+Data Statistics:
+- Span range: 500.0m - 1991.0m
+- Amplitude range: 28.5mm - 150.0mm
+- Frequency range: 0.079Hz - 0.215Hz
+
+Collection Statistics:
+- Valid bridges: 10
+- Invalid bridges: 0
+============================================================

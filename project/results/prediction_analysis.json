@@ -1,0 +1,21 @@
+{
+  "prediction_summary": {
+    "total_samples": 80,
+    "mean_true": 39.1125,
+    "mean_pred": 22.07256133603817,
+    "std_true": 17.1861672210531,
+    "std_pred": 22.16218259473849
+  },
+  "error_analysis": {
+    "mean_absolute_error": 22.082363596254634,
+    "root_mean_square_error": 27.928551482409596,
+    "max_positive_error": 112.00361341205786,
+    "max_negative_error": -74.92756235645504,
+    "error_std": 22.12791174589283
+  },
+  "risk_classification": {
+    "total_low_risk": 1,
+    "total_medium_risk": 32,
+    "total_high_risk": 47
+  }
+}

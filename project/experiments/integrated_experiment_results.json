@@ -1,0 +1,42 @@
+{
+  "advanced_adaptive": {
+    "config": {
+      "use_advanced_features": true,
+      "model_type": "adaptive"
+    },
+    "train_metrics": {
+      "mse": 970.3891687789538,
+      "rmse": 31.151070106481956,
+      "mae": 24.002509734467267,
+      "r2": -2.3957938046331324,
+      "risk_accuracy": 0.48333333333333334
+    },
+    "test_metrics": {
+      "mse": 796.6548027646961,
+      "rmse": 28.225074008134968,
+      "mae": 21.962997322541803,
+      "r2": -1.4845817537230177,
+      "risk_accuracy": 0.45
+    }
+  },
+  "advanced_physics": {
+    "config": {
+      "use_advanced_features": true,
+      "model_type": "physics_informed"
+    },
+    "train_metrics": {
+      "mse": 516.3793171206488,
+      "rmse": 22.723981101925094,
+      "mae": 19.84858339887338,
+      "r2": -0.8070252042543389,
+      "risk_accuracy": 0.65
+    },
+    "test_metrics": {
+      "mse": 786.4626147200353,
+      "rmse": 28.04394078441964,
+      "mae": 22.812293109382047,
+      "r2": -1.452794680628879,
+      "risk_accuracy": 0.4
+    }
+  }
+}

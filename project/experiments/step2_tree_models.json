@@ -1,0 +1,93 @@
+{
+  "experiment": "step2_tree_models",
+  "models": {
+    "decision_tree": {
+      "train_metrics": {
+        "mse": 30.082356150793657,
+        "rmse": 5.484738476061886,
+        "mae": 3.490674603174603,
+        "r2": 0.8947463227268516
+      },
+      "test_metrics": {
+        "mse": 781.0412881865709,
+        "rmse": 27.947115918938234,
+        "mae": 23.694146825396828,
+        "r2": -1.3510391521552574
+      },
+      "risk_accuracy": 0.3125,
+      "hyperparameters": {
+        "max_depth": 6,
+        "min_samples_split": 3
+      }
+    },
+    "random_forest": {
+      "train_metrics": {
+        "mse": 72.28054995381038,
+        "rmse": 8.501796866181312,
+        "mae": 6.894721893486412,
+        "r2": 0.7471011366321011
+      },
+      "test_metrics": {
+        "mse": 381.3062017539186,
+        "rmse": 19.527063316175287,
+        "mae": 17.265461409791186,
+        "r2": -0.14778286736223256
+      },
+      "risk_accuracy": 0.4375,
+      "feature_importance": [
+        [
+          "Critical_Wind_Speed_ms",
+          30.44136871659856
+        ],
+        [
+          "First_Freq_Hz",
+          19.67506959178894
+        ],
+        [
+          "Width_Height_Ratio",
+          19.18055040558494
+        ],
+        [
+          "Span_m",
+          4.879909710235438
+        ],
+        [
+          "VIV_Wind_Speed_ms",
+          3.5730708644879883
+        ],
+        [
+          "Natural_Freq_Hz",
+          2.9034145684984196
+        ],
+        [
+          "Damping_Ratio",
+          2.7685836828221113
+        ],
+        [
+          "Height_m",
+          2.2407870951799396
+        ],
+        [
+          "Width_m",
+          0
+        ]
+      ],
+      "hyperparameters": {
+        "n_estimators": 20,
+        "max_depth": 6,
+        "min_samples_split": 3
+      }
+    }
+  },
+  "feature_names": [
+    "Span_m",
+    "Width_m",
+    "Height_m",
+    "Width_Height_Ratio",
+    "Natural_Freq_Hz",
+    "First_Freq_Hz",
+    "VIV_Wind_Speed_ms",
+    "Critical_Wind_Speed_ms",
+    "Damping_Ratio"
+  ]
+}

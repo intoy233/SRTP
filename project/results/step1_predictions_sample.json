@@ -1,0 +1,92 @@
+[
+  {
+    "BridgeID": "001",
+    "BridgeName": "Humen Bridge",
+    "True_Amplitude": 23.1,
+    "Predicted_Amplitude": 38.038625781187534,
+    "True_Risk": "Medium",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "002",
+    "BridgeName": "Xihoumen Bridge",
+    "True_Amplitude": 54.4,
+    "Predicted_Amplitude": 40.29609653616728,
+    "True_Risk": "High",
+    "Predicted_Risk": "High",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "003",
+    "BridgeName": "Runyang Bridge",
+    "True_Amplitude": 20.4,
+    "Predicted_Amplitude": 36.12854374752935,
+    "True_Risk": "Medium",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "004",
+    "BridgeName": "Sutong Bridge",
+    "True_Amplitude": 25.2,
+    "Predicted_Amplitude": 34.936237527485076,
+    "True_Risk": "Medium",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "005",
+    "BridgeName": "Qingdao Bay Bridge",
+    "True_Amplitude": 25.2,
+    "Predicted_Amplitude": 34.936237527485076,
+    "True_Risk": "Medium",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "006",
+    "BridgeName": "HKZM Bridge",
+    "True_Amplitude": 45.8,
+    "Predicted_Amplitude": 30.396108802046125,
+    "True_Risk": "High",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "007",
+    "BridgeName": "Zhoushan Bridge",
+    "True_Amplitude": 39.5,
+    "Predicted_Amplitude": 37.11292516866394,
+    "True_Risk": "Medium",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "008",
+    "BridgeName": "Hangzhou Bay Bridge",
+    "True_Amplitude": 66.0,
+    "Predicted_Amplitude": 46.11463758421038,
+    "True_Risk": "High",
+    "Predicted_Risk": "High",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "009",
+    "BridgeName": "Maanshan Bridge",
+    "True_Amplitude": 31.9,
+    "Predicted_Amplitude": 36.62023405108577,
+    "True_Risk": "Medium",
+    "Predicted_Risk": "Medium",
+    "Subset": "train"
+  },
+  {
+    "BridgeID": "010",
+    "BridgeName": "Erqi Bridge",
+    "True_Amplitude": 53.9,
+    "Predicted_Amplitude": 53.29804136951441,
+    "True_Risk": "High",
+    "Predicted_Risk": "High",
+    "Subset": "train"
+  }
+]

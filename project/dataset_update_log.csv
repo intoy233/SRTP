@@ -1,0 +1,73 @@
+﻿BridgeID,BridgeName,Matched_Name,Old_Vcr,New_Vcr,Change
+1,Humen Bridge,Humen Bridge,8.7,8.0,-8.0%
+2,Xihoumen Bridge,Xihoumen Bridge,12.5,6.0,-52.0%
+3,Runyang Bridge,Runyang Bridge,14.7,9.5,-35.4%
+4,Sutong Bridge,Sutong Bridge,12.3,35.0,184.6%
+5,Qingdao Bay Bridge,Qingdao Bay Bridge,12.6,14.0,11.1%
+8,Hangzhou Bay Bridge,Hangzhou Bay Bridge,14.0,13.0,-7.1%
+21,Golden Gate Bridge,Golden Gate Bridge,12.8,16.0,25.0%
+22,Akashi Kaikyo Bridge,Akashi Kaikyo Bridge,10.5,45.0,328.6%
+23,Verrazano Narrows Bridge,Verrazano-Narrows Bridge,13.2,8.0,-39.4%
+24,Great Belt East Bridge,Great Belt East Bridge,12.4,5.0,-59.7%
+25,Humber Bridge,Humber Bridge,14.8,14.0,-5.4%
+26,Millau Bridge,Millau Viaduct,13.7,35.0,155.5%
+27,Tatara Bridge,Tatara Bridge,14.2,8.0,-43.7%
+30,Tacoma Narrows Bridge,Tacoma Narrows Bridge,15.8,8.5,-46.2%
+31,Pont de Normandie,Pont de Normandie,14.1,9.0,-36.2%
+32,Russky Bridge,Russky Bridge,12.8,14.0,9.4%
+33,Stonecutters Bridge,Stonecutters Bridge,13.5,25.0,85.2%
+34,Rion-Antirion Bridge,Rion-Antirion Bridge,13.2,11.0,-16.7%
+41,Donghai Bridge,Donghai Bridge,13.7,12.5,-8.8%
+43,Mackinac Bridge,Mackinac Bridge,14.5,45.0,210.3%
+46,Forth Road Bridge,Forth Road Bridge,15.3,35.0,128.8%
+47,Severn Bridge,Severn Bridge,14.9,8.0,-46.3%
+48,Bosphorus Bridge,Bosphorus Bridge,13.8,10.0,-27.5%
+49,Second Bosphorus Bridge,Second Bosphorus Bridge,13.4,11.0,-17.9%
+50,Yavuz Sultan Selim Bridge,Yavuz Sultan Selim Bridge,12.3,40.0,225.2%
+67,Lupu Bridge,Lupu Bridge,10.1,13.0,28.7%
+68,Chaotianmen Bridge,Chaotianmen Bridge,10.2,35.0,243.1%
+87,Gwangan Bridge,Gwangan Bridge,12.5,11.0,-12.0%
+88,Yi Sun-sin Bridge,Yi Sun-sin Bridge,15.3,9.0,-41.2%
+104,Stonecutters Bridge,Stonecutters Bridge,13.4,25.0,86.6%
+106,Russky Bridge,Russky Bridge,12.2,14.0,14.8%
+107,Rion-Antirion Bridge,Rion-Antirion Bridge,15.5,11.0,-29.0%
+108,Vasco da Gama Bridge,Vasco da Gama Bridge,16.8,12.0,-28.6%
+200,Sidu River Bridge,Sidu River Bridge,22.0,9.0,-59.1%
+201,Tsing Ma Bridge,Tsing Ma Bridge,22.0,40.0,81.8%
+202,E-San-Se Bridge,E-San-Se Bridge,22.0,9.0,-59.1%
+204,Second Severn Crossing,Second Severn Crossing,22.0,10.0,-54.5%
+206,Runyang South Bridge,Runyang South Bridge,22.0,9.5,-56.8%
+208,Dongting Lake Bridge,Dongting Lake Bridge,22.0,11.0,-50.0%
+209,Tsurumi Tsubasa Bridge,Tsurumi Tsubasa Bridge,22.0,13.0,-40.9%
+210,New Tacoma Narrows Bridge,Tacoma Narrows Bridge,22.0,8.5,-61.4%
+213,Minpu Bridge,Minpu Bridge,22.0,8.5,-61.4%
+214,Kap Shui Mun Bridge,Kap Shui Mun Bridge,22.0,40.0,81.8%
+215,Sartell Bridge,Sartell Bridge,22.0,14.0,-36.4%
+216,E-ling Bridge,E-ling Bridge,22.0,10.0,-54.5%
+218,Qingdao Haiwan Bridge,Qingdao Haiwan Bridge,22.0,14.0,-36.4%
+220,Millau Viaduct,Millau Viaduct,22.0,35.0,59.1%
+223,Nanjing Yangtze River Bridge,Jingyue Yangtze River Bridge,22.0,9.5,-56.8%
+224,Jinshajiang Bridge,Jinshajiang Bridge,22.0,12.0,-45.5%
+225,Wufengshan Bridge,Wufengshan Bridge,22.0,45.0,104.5%
+226,Runyang North Bridge,Runyang North Bridge,22.0,11.0,-50.0%
+229,Second Nanjing Yangtze Bridge,Second Nanjing Yangtze Bridge,22.0,11.5,-47.7%
+235,Osman Gazi Bridge,Osman Gazi Bridge,22.0,12.0,-45.5%
+237,Bayonne Bridge,Bayonne Bridge,22.0,35.0,59.1%
+239,Hardanger Bridge,Hardanger Bridge,14.14285714285714,10.0,-29.3%
+240,Third Nanjing Yangtze Bridge,Third Nanjing Yangtze Bridge,22.0,10.0,-54.5%
+243,E-470 Cable-Stayed Bridge,E-470 Cable-Stayed Bridge,22.0,15.0,-31.8%
+246,Puente de la Constitución de 1812,Puente de la Constitución de 1812,22.0,14.0,-36.4%
+263,Nanpu Bridge,Nanpu Bridge,22.0,11.0,-50.0%
+300,Third Nanjing Yangtze Bridge (VIV Test 2),Third Nanjing Yangtze Bridge,22.0,10.0,-54.5%
+311,Severn Bridge (VIV Test 2),Severn Bridge (First),22.0,8.0,-63.6%
+317,Puente de la Constitución de 1812 (VIV Test 2),Puente de la Constitución de 1812,22.0,14.0,-36.4%
+360,Third Nanjing Yangtze Bridge (VIV Test 3),Third Nanjing Yangtze Bridge,22.0,10.0,-54.5%
+371,Puente de la Constitución de 1812 (VIV Test 3),Puente de la Constitución de 1812,22.0,14.0,-36.4%
+395,Puente de la Constitución de 1812 (VIV Test 4),Puente de la Constitución de 1812,22.0,14.0,-36.4%
+396,Severn Bridge (VIV Test 3),Severn Bridge (First),22.0,8.0,-63.6%
+399,Third Nanjing Yangtze Bridge (VIV Test 4),Third Nanjing Yangtze Bridge,22.0,10.0,-54.5%
+446,Severn Bridge (VIV Test 4),Severn Bridge (First),22.0,8.0,-63.6%
+447,Puente de la Constitución de 1812 (VIV Test 5),Puente de la Constitución de 1812,22.0,14.0,-36.4%
+457,Third Nanjing Yangtze Bridge (VIV Test 5),Third Nanjing Yangtze Bridge,22.0,10.0,-54.5%
+464,Puente de la Constitución de 1812 (VIV Test 6),Puente de la Constitución de 1812,22.0,14.0,-36.4%
+474,Severn Bridge (VIV Test 5),Severn Bridge (First),22.0,8.0,-63.6%
